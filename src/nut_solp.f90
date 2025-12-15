@@ -30,7 +30,7 @@
       integer :: jj = 0      !none          |counter
       real :: xx = 0.        !none          |variable to hold intermediate calculation
                              !              |result
-      real :: vap = 0.       !kg P/ha       |exponential coefficient for P leached and tile flow
+      real(8) :: vap = 0.       !kg P/ha    |exponential coefficient for P leached and tile flow
       real :: plch = 0.      !kg P/ha       |amount of P leached from soil layer
       
       integer :: ly = 0      !none       
